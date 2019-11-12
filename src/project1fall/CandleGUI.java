@@ -15,7 +15,7 @@ public class CandleGUI extends JFrame{
 	
 	//constructor for the gui, with title, click X to close, size, setComponents method and set it visible
 	public CandleGUI(ArrayList<Candle>c) {
-		c = candle;
+		candle = c;
 		setTitle("Candle GUI");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(600,400);
